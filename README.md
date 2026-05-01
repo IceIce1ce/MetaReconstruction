@@ -1,8 +1,8 @@
 This is the official repository of 
 
-**MetaReconstruction: A Unified Framework for Reconstruction-based Video Anomaly Detection.**
+**MetaReconstruction: A Unified Framework for Reconstruction-based Video Anomaly Detection Methods.**
 
-## Setup
+## 1. Setup
 ```bash
 conda create -n meta_reconstruction python=3.10
 conda activate meta_reconstruction
@@ -10,7 +10,7 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 pip install -r requirements.txt
 ```
 
-## Dataset Preparation
+## 2. Dataset preparation
 Download the [CUHK Avenue](https://drive.google.com/file/d/1q3NBWICMfBPHWQexceKfNZBgUoKzHL-i/view), [UCSD Ped2](https://drive.google.com/file/d/1w1yNBVonKDAp8uxw3idQkUr-a9Gj8yu1/view) and [ShanghaiTech](https://drive.google.com/file/d/1rE1AM11GARgGKf4tXb2fSqhn_sX46WKn/view) datasets and structure the data as follows:
 ```
 dataset/
@@ -63,7 +63,7 @@ dataset/
         .npy
 ```
 
-## Usage
+## 3. Usage
 To use our model, follow the code snippet below:
 ```bash
 cd Reconstructed_based
@@ -94,15 +94,12 @@ bash scripts/eval_pmnad.sh
 bash scripts/demo.sh
 ```
 
-## MetaReconstruction Model Zoo
-TBA.
-
-## Citation
+## 4. Citation
 If you find our work useful, please cite the following:
 ```
 @misc{Chi2023,
   author       = {Chi Tran},
-  title        = {MetaReconstruction: A Unified Framework for Reconstruction-based Video Anomaly Detection},
+  title        = {MetaReconstruction: A Unified Framework for Reconstruction-based Video Anomaly Detection Methods},
   publisher    = {GitHub},
   booktitle    = {GitHub repository},
   howpublished = {https://github.com/IceIce1ce/MetaReconstruction},
@@ -110,11 +107,11 @@ If you find our work useful, please cite the following:
 }
 ```
 
-## Contact
+## 5. Contact
 If you have any questions, feel free to contact `Chi Tran` 
-([ctran743@gmail.com](ctran743@gmail.com)).
+([ctran743@gmail.com](ctran743@gmail.com) or [tdc2000@skku.edu](tdc2000@skku.edu)).
 
-##  Acknowledgement
+## 6. Acknowledgement
 Our framework is built using multiple open source, thanks for their great contributions.
 <!--ts-->
 * [aseuteurideu/STEAL](https://github.com/aseuteurideu/STEAL)
